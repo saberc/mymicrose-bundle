@@ -1,0 +1,6 @@
+code: meeting-details-widget
+titles:
+  en: Meeting Details Widget
+  it: Meeting Details Widget
+group: free
+customUiPath: meeting-details-widget.ftl

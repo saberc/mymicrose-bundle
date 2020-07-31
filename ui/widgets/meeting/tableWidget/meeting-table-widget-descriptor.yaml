@@ -1,0 +1,6 @@
+code: meeting-table-widget
+titles:
+  en: Meeting Table Widget
+  it: Meeting Table Widget
+group: free
+customUiPath: meeting-table-widget.ftl

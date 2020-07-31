@@ -1,0 +1,6 @@
+code: meeting-form-widget
+titles:
+  en: Meeting Form Widget
+  it: Meeting Form Widget
+group: free
+customUiPath: meeting-form-widget.ftl

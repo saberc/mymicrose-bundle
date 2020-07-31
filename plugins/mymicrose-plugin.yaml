@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "mymicrose-plugin"
+spec:
+  image: saberc/mymicrose:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: mysql
+  parameters: {}
+  ingressPath: "/mymicrose"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: mymicrose-admin
+    code: mymicrose-admin
+  - name: meeting-admin
+    code: "meeting-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
